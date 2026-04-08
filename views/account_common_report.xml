@@ -22,8 +22,7 @@
                         or
                         <button name="check_report" string="Print Excel"
                                 type="object" class="oe_highlight"
-                                context="{'excel_report':1}"
-                        />
+                                context="{'excel_report': 1}"/>
                         or
                         <button string="Cancel" class="btn btn-default" special="cancel"/>
                     </footer>
@@ -32,7 +31,7 @@
                                widget="html"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": true}'
+                               options='{"reload_on_button": true}'/>
                     </div>
                 </xpath>
             </field>
@@ -55,16 +54,13 @@
                         or
                         <button name="check_report" string="Print Excel"
                                 type="object" class="oe_highlight"
-                                context="{'excel_report':1}"
-                        />
-<!--                        or-->
-<!--                        <button string="Cancel" class="btn btn-default" special="cancel"/>-->
+                                context="{'excel_report': 1}"/>
                     </footer>
                     <div>
                         <field name="report_details"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": true}'
+                               options='{"reload_on_button": true}'/>
                     </div>
                 </xpath>
             </field>
@@ -87,16 +83,13 @@
                         or
                         <button name="check_report" string="Print Excel"
                                 type="object" class="oe_highlight"
-                                context="{'excel_report':1}"
-                        />
-<!--                        or-->
-<!--                        <button string="Cancel" class="btn btn-default" special="cancel"/>-->
+                                context="{'excel_report': 1}"/>
                     </footer>
                     <div>
                         <field name="report_details"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": true}'
+                               options='{"reload_on_button": true}'/>
                     </div>
                 </xpath>
             </field>
@@ -104,4 +97,3 @@
 
     </data>
 </odoo>
-
