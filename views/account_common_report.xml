@@ -32,7 +32,7 @@
                                widget="html"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": True,"fixed_size": True}'/>
+                               options='{"reload_on_button": True}'
                     </div>
                 </xpath>
             </field>
@@ -64,7 +64,7 @@
                         <field name="report_details"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": True,"fixed_size": True}'/>
+                               options='{"reload_on_button": True}'
                     </div>
                 </xpath>
             </field>
@@ -96,7 +96,7 @@
                         <field name="report_details"
                                nolabel="1"
                                readonly="1"
-                               options='{"reload_on_button": True,"fixed_size": True}'/>
+                               options='{"reload_on_button": True}'
                     </div>
                 </xpath>
             </field>
